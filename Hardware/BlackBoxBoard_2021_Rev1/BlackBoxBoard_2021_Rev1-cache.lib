@@ -1,114 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C
+# BlackBoxBoard_2021_Rev1-rescue_AndersonPP-MRDT_Connectors
 #
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D_Schottky
-#
-DEF Device_D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_L
-#
-DEF Device_L L 0 40 N N 1 F N
-F0 "L" -50 0 50 V V C CNN
-F1 "Device_L" 75 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
-$ENDFPLIST
-DRAW
-A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
-A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
-A 0 25 25 -899 899 0 1 0 N 0 0 0 50
-A 0 75 25 -899 899 0 1 0 N 0 50 0 100
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MRDT_Connectors_AndersonPP
-#
-DEF MRDT_Connectors_AndersonPP Conn 0 0 N Y 5 L N
+DEF BlackBoxBoard_2021_Rev1-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "MRDT_Connectors_AndersonPP" 100 250 60 H V C CNN
+F1 "BlackBoxBoard_2021_Rev1-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -124,24 +21,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# MRDT_Connectors_Test_Point
+# BlackBoxBoard_2021_Rev1-rescue_LM2576D2TR4-MRDT_Devices
 #
-DEF MRDT_Connectors_Test_Point J 0 40 N N 1 F N
-F0 "J" 50 -50 60 H V C CNN
-F1 "MRDT_Connectors_Test_Point" 0 250 60 H V C CNN
-F2 "" 0 -50 60 H I C CNN
-F3 "" 0 -50 60 H I C CNN
-DRAW
-C 0 150 50 0 1 0 F
-X ~ 1 0 0 100 U 59 59 1 0 U
-ENDDRAW
-ENDDEF
-#
-# MRDT_Devices_LM2576D2TR4
-#
-DEF MRDT_Devices_LM2576D2TR4 U 0 40 Y Y 1 F N
+DEF BlackBoxBoard_2021_Rev1-rescue_LM2576D2TR4-MRDT_Devices U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "MRDT_Devices_LM2576D2TR4" 0 350 50 H V C CNN
+F1 "BlackBoxBoard_2021_Rev1-rescue_LM2576D2TR4-MRDT_Devices" 0 350 50 H V C CNN
 F2 "" 0 450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 DRAW
@@ -155,11 +39,11 @@ X TAB 6 -500 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MRDT_Shields_TM4C129E_Launchpad
+# BlackBoxBoard_2021_Rev1-rescue_TM4C129E_Launchpad-MRDT_Shields
 #
-DEF MRDT_Shields_TM4C129E_Launchpad U 0 20 Y Y 8 L N
+DEF BlackBoxBoard_2021_Rev1-rescue_TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "MRDT_Shields_TM4C129E_Launchpad" 100 1150 60 H V C CNN
+F1 "BlackBoxBoard_2021_Rev1-rescue_TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -255,6 +139,160 @@ X D2_5 Rese' -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
+# BlackBoxBoard_2021_Rev1-rescue_Test_Point-MRDT_Connectors
+#
+DEF BlackBoxBoard_2021_Rev1-rescue_Test_Point-MRDT_Connectors J 0 40 N N 1 F N
+F0 "J" 50 -50 60 H V C CNN
+F1 "BlackBoxBoard_2021_Rev1-rescue_Test_Point-MRDT_Connectors" 0 250 60 H V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+DRAW
+C 0 150 50 0 1 0 F
+X ~ 1 0 0 100 U 59 59 1 0 U
+ENDDRAW
+ENDDEF
+#
+# Connector_SD_Card
+#
+DEF Connector_SD_Card J 0 40 Y Y 1 F N
+F0 "J" -650 550 50 H V C CNN
+F1 "Connector_SD_Card" 600 -550 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SD*
+$ENDFPLIST
+DRAW
+S -350 -375 -250 -425 0 1 0 F
+S -350 -275 -250 -325 0 1 0 F
+S -350 -175 -250 -225 0 1 0 F
+S -350 -75 -250 -125 0 1 0 F
+S -350 25 -250 -25 0 1 0 F
+S -350 125 -250 75 0 1 0 F
+S -350 225 -250 175 0 1 0 F
+S -350 325 -250 275 0 1 0 F
+S -300 425 -200 375 0 1 0 F
+P 6 0 1 0 -400 350 -300 450 800 450 800 -450 -400 -450 -400 350 f
+P 6 0 1 0 650 450 650 500 -800 500 -800 -500 650 -500 650 -450 N
+X CD/DAT3 1 -900 300 100 R 50 50 1 1 I
+X CARD_DETECT 10 900 200 100 L 50 50 1 1 I
+X WRITE_PROTECT 11 900 100 100 L 50 50 1 1 I
+X SHELL1 12 900 -100 100 L 50 50 1 1 I
+X SHELL2 13 900 -200 100 L 50 50 1 1 I
+X CMD 2 -900 200 100 R 50 50 1 1 I
+X VSS 3 -900 100 100 R 50 50 1 1 W
+X VDD 4 -900 0 100 R 50 50 1 1 W
+X CLK 5 -900 -100 100 R 50 50 1 1 I
+X VSS 6 -900 -200 100 R 50 50 1 1 W
+X DAT0 7 -900 -300 100 R 50 50 1 1 I
+X DAT1 8 -900 -400 100 R 50 50 1 1 I
+X DAT2 9 -900 400 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky
+#
+DEF Device_D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L
+#
+DEF Device_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+12V
 #
 DEF power_+12V #PWR 0 0 Y Y 1 F P
@@ -275,6 +313,21 @@ ENDDEF
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V

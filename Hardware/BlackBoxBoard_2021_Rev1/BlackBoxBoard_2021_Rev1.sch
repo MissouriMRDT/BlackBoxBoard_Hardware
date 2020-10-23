@@ -14,18 +14,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 1 1 5F90B988
 P 1600 1900
-F 0 "U?" H 1901 2498 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 1901 2392 60  0000 L CNN
+F 0 "U?" H 1800 3150 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 1650 3250 60  0000 L CNN
 F 2 "" H 1600 1900 60  0001 C CNN
 F 3 "" H 1600 1900 60  0001 C CNN
 	1    1600 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 2 1 5F90D49F
 P 2100 1900
 F 0 "U?" H 2131 3177 60  0000 C CNN
@@ -36,40 +36,40 @@ F 3 "" H 2100 1900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 3 1 5F90FD44
-P 3300 1900
-F 0 "U?" H 3605 2498 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 3605 2392 60  0000 L CNN
-F 2 "" H 3300 1900 60  0001 C CNN
-F 3 "" H 3300 1900 60  0001 C CNN
-	3    3300 1900
+P 3950 1900
+F 0 "U?" H 4100 3150 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 3900 3250 60  0000 L CNN
+F 2 "" H 3950 1900 60  0001 C CNN
+F 3 "" H 3950 1900 60  0001 C CNN
+	3    3950 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 4 1 5F911E8F
-P 3800 1900
-F 0 "U?" H 3831 3177 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3831 3071 60  0000 C CNN
-F 2 "" H 3800 1900 60  0001 C CNN
-F 3 "" H 3800 1900 60  0001 C CNN
-	4    3800 1900
+P 4450 1900
+F 0 "U?" H 4481 3177 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4481 3071 60  0000 C CNN
+F 2 "" H 4450 1900 60  0001 C CNN
+F 3 "" H 4450 1900 60  0001 C CNN
+	4    4450 1900
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 5 1 5F9131A7
 P 1600 3400
-F 0 "U?" H 1901 3998 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 1901 3892 60  0000 L CNN
+F 0 "U?" H 1800 4650 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 1550 4750 60  0000 L CNN
 F 2 "" H 1600 3400 60  0001 C CNN
 F 3 "" H 1600 3400 60  0001 C CNN
 	5    1600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 6 1 5F914E8B
 P 2100 3400
 F 0 "U?" H 2131 4677 60  0000 C CNN
@@ -80,29 +80,29 @@ F 3 "" H 2100 3400 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 7 1 5F918B6F
-P 3300 3400
-F 0 "U?" H 3605 3998 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 3605 3892 60  0000 L CNN
-F 2 "" H 3300 3400 60  0001 C CNN
-F 3 "" H 3300 3400 60  0001 C CNN
-	7    3300 3400
+P 3900 3350
+F 0 "U?" H 4050 4600 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 3850 4700 60  0000 L CNN
+F 2 "" H 3900 3350 60  0001 C CNN
+F 3 "" H 3900 3350 60  0001 C CNN
+	7    3900 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
+L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 8 1 5F91A576
-P 3800 3400
-F 0 "U?" H 3831 4677 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 3831 4571 60  0000 C CNN
-F 2 "" H 3800 3400 60  0001 C CNN
-F 3 "" H 3800 3400 60  0001 C CNN
-	8    3800 3400
+P 4400 3350
+F 0 "U?" H 4431 4627 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4431 4521 60  0000 C CNN
+F 2 "" H 4400 3350 60  0001 C CNN
+F 3 "" H 4400 3350 60  0001 C CNN
+	8    4400 3350
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L BlackBoxBoard_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F91E5E5
 P 6150 1600
 F 0 "Conn?" H 6358 1987 60  0000 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 6000 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L BlackBoxBoard_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 5F91EB79
 P 6150 1150
 F 0 "Conn?" H 6358 1537 60  0000 C CNN
@@ -139,7 +139,7 @@ F 3 "" H 6650 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:LM2576D2TR4 U?
+L BlackBoxBoard_2021_Rev1-rescue:LM2576D2TR4-MRDT_Devices U?
 U 1 1 5F9286E3
 P 6350 2800
 F 0 "U?" H 6350 3225 50  0000 C CNN
@@ -297,7 +297,7 @@ Wire Wire Line
 	8350 2750 8350 2350
 Connection ~ 8100 2750
 $Comp
-L MRDT_Connectors:Test_Point J?
+L BlackBoxBoard_2021_Rev1-rescue:Test_Point-MRDT_Connectors J?
 U 1 1 5F93F1C6
 P 8550 2850
 F 0 "J?" H 8472 2889 60  0000 R CNN
@@ -384,4 +384,456 @@ Wire Wire Line
 	7200 2050 7200 2250
 Wire Wire Line
 	7200 2250 7200 2600
+Text GLabel 3600 1050 0    39   Output ~ 0
+Data_Write_LED
+Wire Wire Line
+	3750 1050 3600 1050
+Text GLabel 3600 950  0    39   Output ~ 0
+Error_LED
+Wire Wire Line
+	3750 950  3600 950 
+Text GLabel 3600 1250 0    39   Output ~ 0
+Full_SD1_LED
+Wire Wire Line
+	3750 1250 3600 1250
+Text GLabel 3600 1550 0    39   Output ~ 0
+Full_SD2_LED
+Wire Wire Line
+	3750 1550 3600 1550
+Text GLabel 1250 1450 0    39   Input ~ 0
+SD1_SerialData_In
+Wire Wire Line
+	1400 1450 1250 1450
+Text GLabel 1250 1050 0    39   Output ~ 0
+SD1_SerialData_Out
+Wire Wire Line
+	1400 1050 1250 1050
+Text GLabel 1250 1550 0    39   Output ~ 0
+SD1_SerialClock
+Wire Wire Line
+	1400 1550 1250 1550
+Text GLabel 1300 2550 0    39   Output ~ 0
+SD1_ChipSelect
+Wire Wire Line
+	1400 2550 1300 2550
+Text GLabel 4800 3000 2    39   Input ~ 0
+SD2_SerialData_InTX
+Wire Wire Line
+	4600 3000 4800 3000
+Text GLabel 4800 2900 2    39   Output ~ 0
+SD2_SerialData_OutRX
+Wire Wire Line
+	4600 2900 4800 2900
+Text GLabel 3600 1150 0    39   Output ~ 0
+SD2_SerialClock
+Wire Wire Line
+	3750 1150 3600 1150
+Text GLabel 4800 3200 2    39   Output ~ 0
+SD2_ChipSelect
+Wire Wire Line
+	4600 3200 4800 3200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F95D1E9
+P 1250 950
+F 0 "#PWR?" H 1250 800 50  0001 C CNN
+F 1 "+3V3" H 1265 1123 50  0000 C CNN
+F 2 "" H 1250 950 50  0001 C CNN
+F 3 "" H 1250 950 50  0001 C CNN
+	1    1250 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 950  1250 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5F95FAC0
+P 2550 1050
+F 0 "#PWR?" H 2550 800 50  0001 C CNN
+F 1 "GND" H 2555 877 50  0000 C CNN
+F 2 "" H 2550 1050 50  0001 C CNN
+F 3 "" H 2550 1050 50  0001 C CNN
+	1    2550 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1050 2550 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5F961E6A
+P 2550 2550
+F 0 "#PWR?" H 2550 2300 50  0001 C CNN
+F 1 "GND" H 2555 2377 50  0000 C CNN
+F 2 "" H 2550 2550 50  0001 C CNN
+F 3 "" H 2550 2550 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2550 2550 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5F96460E
+P 4850 2400
+F 0 "#PWR?" H 4850 2150 50  0001 C CNN
+F 1 "GND" H 4855 2227 50  0000 C CNN
+F 2 "" H 4850 2400 50  0001 C CNN
+F 3 "" H 4850 2400 50  0001 C CNN
+	1    4850 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2400 4850 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5F9664C9
+P 4900 950
+F 0 "#PWR?" H 4900 700 50  0001 C CNN
+F 1 "GND" H 4905 777 50  0000 C CNN
+F 2 "" H 4900 950 50  0001 C CNN
+F 3 "" H 4900 950 50  0001 C CNN
+	1    4900 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 950  4900 950 
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F969F9F
+P 1250 2450
+F 0 "#PWR?" H 1250 2300 50  0001 C CNN
+F 1 "+3V3" H 1265 2623 50  0000 C CNN
+F 2 "" H 1250 2450 50  0001 C CNN
+F 3 "" H 1250 2450 50  0001 C CNN
+	1    1250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2450 1400 2450
+NoConn ~ 2350 2450
+NoConn ~ 2350 2650
+NoConn ~ 2350 2750
+NoConn ~ 2350 2850
+NoConn ~ 2350 2950
+NoConn ~ 2350 3050
+NoConn ~ 2350 3150
+NoConn ~ 2350 3250
+NoConn ~ 2350 3350
+NoConn ~ 1350 3350
+NoConn ~ 1350 3250
+NoConn ~ 1350 3150
+NoConn ~ 1350 3050
+NoConn ~ 1350 2950
+NoConn ~ 1350 2850
+NoConn ~ 1350 2750
+NoConn ~ 1350 2650
+NoConn ~ 1350 1850
+NoConn ~ 1350 1750
+NoConn ~ 1350 1650
+NoConn ~ 1350 1350
+NoConn ~ 1350 1250
+NoConn ~ 1350 1150
+NoConn ~ 2350 950 
+NoConn ~ 2350 1150
+NoConn ~ 2350 1250
+NoConn ~ 2350 1350
+NoConn ~ 2350 1450
+NoConn ~ 2350 1550
+NoConn ~ 2350 1650
+NoConn ~ 2350 1750
+NoConn ~ 2350 1850
+NoConn ~ 3700 1350
+NoConn ~ 3700 1450
+NoConn ~ 3700 1650
+NoConn ~ 3700 1750
+NoConn ~ 3700 1850
+NoConn ~ 4700 1050
+NoConn ~ 4700 1150
+NoConn ~ 4700 1250
+NoConn ~ 4700 1350
+NoConn ~ 4700 1450
+NoConn ~ 4700 1550
+NoConn ~ 4700 1650
+NoConn ~ 4700 1750
+NoConn ~ 4700 1850
+NoConn ~ 3650 2400
+NoConn ~ 3650 2500
+NoConn ~ 3650 2600
+NoConn ~ 3650 2700
+NoConn ~ 3650 2800
+NoConn ~ 3650 2900
+NoConn ~ 3650 3000
+NoConn ~ 3650 3100
+NoConn ~ 3650 3200
+NoConn ~ 3650 3300
+NoConn ~ 4650 2500
+NoConn ~ 4650 2600
+NoConn ~ 4650 2700
+NoConn ~ 4650 2800
+NoConn ~ 4650 3100
+NoConn ~ 4650 3300
+Wire Wire Line
+	4650 1050 4700 1050
+Wire Wire Line
+	4700 1150 4650 1150
+Wire Wire Line
+	4700 1250 4650 1250
+Wire Wire Line
+	4650 1350 4700 1350
+Wire Wire Line
+	4650 1450 4700 1450
+Wire Wire Line
+	4650 1550 4700 1550
+Wire Wire Line
+	4650 1650 4700 1650
+Wire Wire Line
+	4650 1750 4700 1750
+Wire Wire Line
+	4650 1850 4700 1850
+Wire Wire Line
+	3750 1350 3700 1350
+Wire Wire Line
+	3750 1450 3700 1450
+Wire Wire Line
+	3750 1650 3700 1650
+Wire Wire Line
+	3750 1750 3700 1750
+Wire Wire Line
+	3750 1850 3700 1850
+Wire Wire Line
+	3700 2400 3650 2400
+Wire Wire Line
+	3700 2500 3650 2500
+Wire Wire Line
+	3700 2600 3650 2600
+Wire Wire Line
+	3700 2700 3650 2700
+Wire Wire Line
+	3700 2800 3650 2800
+Wire Wire Line
+	3700 2900 3650 2900
+Wire Wire Line
+	3700 3000 3650 3000
+Wire Wire Line
+	3700 3100 3650 3100
+Wire Wire Line
+	3700 3200 3650 3200
+Wire Wire Line
+	3700 3300 3650 3300
+Wire Wire Line
+	4600 2500 4650 2500
+Wire Wire Line
+	4600 2600 4650 2600
+Wire Wire Line
+	4600 2700 4650 2700
+Wire Wire Line
+	4600 2800 4650 2800
+Wire Wire Line
+	4600 3100 4650 3100
+Wire Wire Line
+	4600 3300 4650 3300
+Wire Wire Line
+	2300 3350 2350 3350
+Wire Wire Line
+	2300 3250 2350 3250
+Wire Wire Line
+	2300 3150 2350 3150
+Wire Wire Line
+	2300 3050 2350 3050
+Wire Wire Line
+	2300 2950 2350 2950
+Wire Wire Line
+	2300 2850 2350 2850
+Wire Wire Line
+	2300 2750 2350 2750
+Wire Wire Line
+	2300 2650 2350 2650
+Wire Wire Line
+	2300 2450 2350 2450
+Wire Wire Line
+	1400 2650 1350 2650
+Wire Wire Line
+	1400 2750 1350 2750
+Wire Wire Line
+	1400 2850 1350 2850
+Wire Wire Line
+	1400 2950 1350 2950
+Wire Wire Line
+	1400 3050 1350 3050
+Wire Wire Line
+	1400 3150 1350 3150
+Wire Wire Line
+	1400 3250 1350 3250
+Wire Wire Line
+	1400 3350 1350 3350
+Wire Wire Line
+	1400 1850 1350 1850
+Wire Wire Line
+	1400 1750 1350 1750
+Wire Wire Line
+	1400 1650 1350 1650
+Wire Wire Line
+	1400 1350 1350 1350
+Wire Wire Line
+	1400 1250 1350 1250
+Wire Wire Line
+	1400 1150 1350 1150
+Wire Wire Line
+	2300 950  2350 950 
+Wire Wire Line
+	2300 1150 2350 1150
+Wire Wire Line
+	2300 1250 2350 1250
+Wire Wire Line
+	2300 1350 2350 1350
+Wire Wire Line
+	2300 1450 2350 1450
+Wire Wire Line
+	2300 1550 2350 1550
+Wire Wire Line
+	2300 1650 2350 1650
+Wire Wire Line
+	2300 1750 2350 1750
+Wire Wire Line
+	2300 1850 2350 1850
+$Comp
+L Connector:SD_Card J?
+U 1 1 5FA86896
+P 1850 5200
+F 0 "J?" V 1804 5728 50  0000 L CNN
+F 1 "SD_Card2" V 1895 5728 50  0000 L CNN
+F 2 "" H 1850 5200 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 1850 5200 50  0001 C CNN
+	1    1850 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:SD_Card J?
+U 1 1 5FA89395
+P 4300 5200
+F 0 "J?" V 4254 5728 50  0000 L CNN
+F 1 "SD_Card1" V 4345 5728 50  0000 L CNN
+F 2 "" H 4300 5200 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 4300 5200 50  0001 C CNN
+	1    4300 5200
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 4100 1    39   Input ~ 0
+SD1_SerialClock
+Wire Wire Line
+	4200 4300 4200 4100
+Text GLabel 1750 4100 1    39   Input ~ 0
+SD2_SerialClock
+Wire Wire Line
+	1750 4100 1750 4300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FA99A89
+P 4300 4100
+F 0 "#PWR?" H 4300 3950 50  0001 C CNN
+F 1 "+3V3" H 4315 4273 50  0000 C CNN
+F 2 "" H 4300 4100 50  0001 C CNN
+F 3 "" H 4300 4100 50  0001 C CNN
+	1    4300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4100 4300 4300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FAA1B39
+P 1850 4100
+F 0 "#PWR?" H 1850 3950 50  0001 C CNN
+F 1 "+3V3" H 1865 4273 50  0000 C CNN
+F 2 "" H 1850 4100 50  0001 C CNN
+F 3 "" H 1850 4100 50  0001 C CNN
+	1    1850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4100 1850 4300
+Wire Wire Line
+	4500 4100 4500 4300
+Wire Wire Line
+	2050 4050 2050 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5FAC0C2D
+P 2500 4100
+F 0 "#PWR?" H 2500 3850 50  0001 C CNN
+F 1 "GND" H 2505 3927 50  0000 C CNN
+F 2 "" H 2500 4100 50  0001 C CNN
+F 3 "" H 2500 4100 50  0001 C CNN
+	1    2500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAC155B
+P 5000 4150
+F 0 "#PWR?" H 5000 3900 50  0001 C CNN
+F 1 "GND" H 5005 3977 50  0000 C CNN
+F 2 "" H 5000 4150 50  0001 C CNN
+F 3 "" H 5000 4150 50  0001 C CNN
+	1    5000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4300 1950 4100
+Wire Wire Line
+	1950 4100 2500 4100
+Wire Wire Line
+	4400 4300 4400 4150
+Wire Wire Line
+	4400 4150 5000 4150
+Text GLabel 4000 4100 1    39   Input ~ 0
+SD1_SerialData_In
+Wire Wire Line
+	4000 4100 4000 4300
+Text GLabel 4500 4100 1    39   Output ~ 0
+SD1_SerialData_Out
+Text GLabel 2050 4050 1    30   Output ~ 0
+Sd2_SerialData_OutRX
+Text GLabel 1550 4100 1    39   Input ~ 0
+SD2_SerialData_InTX
+Wire Wire Line
+	1550 4100 1550 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5FAE3306
+P 3550 4250
+F 0 "#PWR?" H 3550 4000 50  0001 C CNN
+F 1 "GND" H 3555 4077 50  0000 C CNN
+F 2 "" H 3550 4250 50  0001 C CNN
+F 3 "" H 3550 4250 50  0001 C CNN
+	1    3550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAE3D78
+P 1100 4200
+F 0 "#PWR?" H 1100 3950 50  0001 C CNN
+F 1 "GND" H 1105 4027 50  0000 C CNN
+F 2 "" H 1100 4200 50  0001 C CNN
+F 3 "" H 1100 4200 50  0001 C CNN
+	1    1100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4300 1650 4200
+Wire Wire Line
+	1650 4200 1100 4200
+Wire Wire Line
+	4100 4300 4100 4250
+Wire Wire Line
+	4100 4250 3550 4250
+Text GLabel 4600 4100 1    39   Input ~ 0
+SD1_ChipSelect
+Wire Wire Line
+	4600 4100 4600 4300
+Text GLabel 2150 4050 1    39   Input ~ 0
+SD2_ChipSelect
+Wire Wire Line
+	2150 4050 2150 4300
 $EndSCHEMATC

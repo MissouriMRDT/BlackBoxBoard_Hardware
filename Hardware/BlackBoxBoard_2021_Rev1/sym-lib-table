@@ -10,4 +10,5 @@
   (lib (name MRDT_Shields)(type Legacy)(uri C:/Users/Thinkpad/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri C:/Users/Thinkpad/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri C:/Users/Thinkpad/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Switches.lib)(options "")(descr ""))
+  (lib (name BlackBoxBoard_2021_Rev1-rescue)(type Legacy)(uri ${KIPRJMOD}/BlackBoxBoard_2021_Rev1-rescue.lib)(options "")(descr ""))
 )
