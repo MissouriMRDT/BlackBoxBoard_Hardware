@@ -14,94 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 1 1 5F90B988
-P 1600 1900
-F 0 "U?" H 1800 3150 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 1650 3250 60  0000 L CNN
-F 2 "" H 1600 1900 60  0001 C CNN
-F 3 "" H 1600 1900 60  0001 C CNN
-	1    1600 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 2 1 5F90D49F
-P 2100 1900
-F 0 "U?" H 2131 3177 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 2131 3071 60  0000 C CNN
-F 2 "" H 2100 1900 60  0001 C CNN
-F 3 "" H 2100 1900 60  0001 C CNN
-	2    2100 1900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 3 1 5F90FD44
-P 3950 1900
-F 0 "U?" H 4100 3150 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 3900 3250 60  0000 L CNN
-F 2 "" H 3950 1900 60  0001 C CNN
-F 3 "" H 3950 1900 60  0001 C CNN
-	3    3950 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 4 1 5F911E8F
-P 4450 1900
-F 0 "U?" H 4481 3177 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 4481 3071 60  0000 C CNN
-F 2 "" H 4450 1900 60  0001 C CNN
-F 3 "" H 4450 1900 60  0001 C CNN
-	4    4450 1900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 5 1 5F9131A7
-P 1600 3400
-F 0 "U?" H 1800 4650 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 1550 4750 60  0000 L CNN
-F 2 "" H 1600 3400 60  0001 C CNN
-F 3 "" H 1600 3400 60  0001 C CNN
-	5    1600 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 6 1 5F914E8B
-P 2100 3400
-F 0 "U?" H 2131 4677 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 2131 4571 60  0000 C CNN
-F 2 "" H 2100 3400 60  0001 C CNN
-F 3 "" H 2100 3400 60  0001 C CNN
-	6    2100 3400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 7 1 5F918B6F
-P 3900 3350
-F 0 "U?" H 4050 4600 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 3850 4700 60  0000 L CNN
-F 2 "" H 3900 3350 60  0001 C CNN
-F 3 "" H 3900 3350 60  0001 C CNN
-	7    3900 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L BlackBoxBoard_2021_Rev1-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 8 1 5F91A576
-P 4400 3350
-F 0 "U?" H 4431 4627 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 4431 4521 60  0000 C CNN
-F 2 "" H 4400 3350 60  0001 C CNN
-F 3 "" H 4400 3350 60  0001 C CNN
-	8    4400 3350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L BlackBoxBoard_2021_Rev1-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F91E5E5
 P 6150 1600
@@ -384,318 +296,6 @@ Wire Wire Line
 	7200 2050 7200 2250
 Wire Wire Line
 	7200 2250 7200 2600
-Text GLabel 3600 1050 0    39   Output ~ 0
-Data_Write_LED
-Wire Wire Line
-	3750 1050 3600 1050
-Text GLabel 3600 950  0    39   Output ~ 0
-Error_LED
-Wire Wire Line
-	3750 950  3600 950 
-Text GLabel 3600 1250 0    39   Output ~ 0
-Full_SD1_LED
-Wire Wire Line
-	3750 1250 3600 1250
-Text GLabel 3600 1550 0    39   Output ~ 0
-Full_SD2_LED
-Wire Wire Line
-	3750 1550 3600 1550
-Text GLabel 1250 1450 0    39   Input ~ 0
-SD1_SerialData_In
-Wire Wire Line
-	1400 1450 1250 1450
-Text GLabel 1250 1050 0    39   Output ~ 0
-SD1_SerialData_Out
-Wire Wire Line
-	1400 1050 1250 1050
-Text GLabel 1250 1550 0    39   Output ~ 0
-SD1_SerialClock
-Wire Wire Line
-	1400 1550 1250 1550
-Text GLabel 1300 2550 0    39   Output ~ 0
-SD1_ChipSelect
-Wire Wire Line
-	1400 2550 1300 2550
-Text GLabel 4800 3000 2    39   Input ~ 0
-SD2_SerialData_InTX
-Wire Wire Line
-	4600 3000 4800 3000
-Text GLabel 4800 2900 2    39   Output ~ 0
-SD2_SerialData_OutRX
-Wire Wire Line
-	4600 2900 4800 2900
-Text GLabel 3600 1150 0    39   Output ~ 0
-SD2_SerialClock
-Wire Wire Line
-	3750 1150 3600 1150
-Text GLabel 4800 3200 2    39   Output ~ 0
-SD2_ChipSelect
-Wire Wire Line
-	4600 3200 4800 3200
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F95D1E9
-P 1250 950
-F 0 "#PWR?" H 1250 800 50  0001 C CNN
-F 1 "+3V3" H 1265 1123 50  0000 C CNN
-F 2 "" H 1250 950 50  0001 C CNN
-F 3 "" H 1250 950 50  0001 C CNN
-	1    1250 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 950  1250 950 
-$Comp
-L power:GND #PWR?
-U 1 1 5F95FAC0
-P 2550 1050
-F 0 "#PWR?" H 2550 800 50  0001 C CNN
-F 1 "GND" H 2555 877 50  0000 C CNN
-F 2 "" H 2550 1050 50  0001 C CNN
-F 3 "" H 2550 1050 50  0001 C CNN
-	1    2550 1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 1050 2550 1050
-$Comp
-L power:GND #PWR?
-U 1 1 5F961E6A
-P 2550 2550
-F 0 "#PWR?" H 2550 2300 50  0001 C CNN
-F 1 "GND" H 2555 2377 50  0000 C CNN
-F 2 "" H 2550 2550 50  0001 C CNN
-F 3 "" H 2550 2550 50  0001 C CNN
-	1    2550 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 2550 2550 2550
-$Comp
-L power:GND #PWR?
-U 1 1 5F96460E
-P 4850 2400
-F 0 "#PWR?" H 4850 2150 50  0001 C CNN
-F 1 "GND" H 4855 2227 50  0000 C CNN
-F 2 "" H 4850 2400 50  0001 C CNN
-F 3 "" H 4850 2400 50  0001 C CNN
-	1    4850 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 2400 4850 2400
-$Comp
-L power:GND #PWR?
-U 1 1 5F9664C9
-P 4900 950
-F 0 "#PWR?" H 4900 700 50  0001 C CNN
-F 1 "GND" H 4905 777 50  0000 C CNN
-F 2 "" H 4900 950 50  0001 C CNN
-F 3 "" H 4900 950 50  0001 C CNN
-	1    4900 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 950  4900 950 
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5F969F9F
-P 1250 2450
-F 0 "#PWR?" H 1250 2300 50  0001 C CNN
-F 1 "+3V3" H 1265 2623 50  0000 C CNN
-F 2 "" H 1250 2450 50  0001 C CNN
-F 3 "" H 1250 2450 50  0001 C CNN
-	1    1250 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 2450 1400 2450
-NoConn ~ 2350 2450
-NoConn ~ 2350 2650
-NoConn ~ 2350 2750
-NoConn ~ 2350 2850
-NoConn ~ 2350 2950
-NoConn ~ 2350 3050
-NoConn ~ 2350 3150
-NoConn ~ 2350 3250
-NoConn ~ 2350 3350
-NoConn ~ 1350 3350
-NoConn ~ 1350 3250
-NoConn ~ 1350 3150
-NoConn ~ 1350 3050
-NoConn ~ 1350 2950
-NoConn ~ 1350 2850
-NoConn ~ 1350 2750
-NoConn ~ 1350 2650
-NoConn ~ 1350 1850
-NoConn ~ 1350 1750
-NoConn ~ 1350 1650
-NoConn ~ 1350 1350
-NoConn ~ 1350 1250
-NoConn ~ 1350 1150
-NoConn ~ 2350 950 
-NoConn ~ 2350 1150
-NoConn ~ 2350 1250
-NoConn ~ 2350 1350
-NoConn ~ 2350 1450
-NoConn ~ 2350 1550
-NoConn ~ 2350 1650
-NoConn ~ 2350 1750
-NoConn ~ 2350 1850
-NoConn ~ 3700 1350
-NoConn ~ 3700 1450
-NoConn ~ 3700 1650
-NoConn ~ 3700 1750
-NoConn ~ 3700 1850
-NoConn ~ 4700 1050
-NoConn ~ 4700 1150
-NoConn ~ 4700 1250
-NoConn ~ 4700 1350
-NoConn ~ 4700 1450
-NoConn ~ 4700 1550
-NoConn ~ 4700 1650
-NoConn ~ 4700 1750
-NoConn ~ 4700 1850
-NoConn ~ 3650 2400
-NoConn ~ 3650 2500
-NoConn ~ 3650 2600
-NoConn ~ 3650 2700
-NoConn ~ 3650 2800
-NoConn ~ 3650 2900
-NoConn ~ 3650 3000
-NoConn ~ 3650 3100
-NoConn ~ 3650 3200
-NoConn ~ 3650 3300
-NoConn ~ 4650 2500
-NoConn ~ 4650 2600
-NoConn ~ 4650 2700
-NoConn ~ 4650 2800
-NoConn ~ 4650 3100
-NoConn ~ 4650 3300
-Wire Wire Line
-	4650 1050 4700 1050
-Wire Wire Line
-	4700 1150 4650 1150
-Wire Wire Line
-	4700 1250 4650 1250
-Wire Wire Line
-	4650 1350 4700 1350
-Wire Wire Line
-	4650 1450 4700 1450
-Wire Wire Line
-	4650 1550 4700 1550
-Wire Wire Line
-	4650 1650 4700 1650
-Wire Wire Line
-	4650 1750 4700 1750
-Wire Wire Line
-	4650 1850 4700 1850
-Wire Wire Line
-	3750 1350 3700 1350
-Wire Wire Line
-	3750 1450 3700 1450
-Wire Wire Line
-	3750 1650 3700 1650
-Wire Wire Line
-	3750 1750 3700 1750
-Wire Wire Line
-	3750 1850 3700 1850
-Wire Wire Line
-	3700 2400 3650 2400
-Wire Wire Line
-	3700 2500 3650 2500
-Wire Wire Line
-	3700 2600 3650 2600
-Wire Wire Line
-	3700 2700 3650 2700
-Wire Wire Line
-	3700 2800 3650 2800
-Wire Wire Line
-	3700 2900 3650 2900
-Wire Wire Line
-	3700 3000 3650 3000
-Wire Wire Line
-	3700 3100 3650 3100
-Wire Wire Line
-	3700 3200 3650 3200
-Wire Wire Line
-	3700 3300 3650 3300
-Wire Wire Line
-	4600 2500 4650 2500
-Wire Wire Line
-	4600 2600 4650 2600
-Wire Wire Line
-	4600 2700 4650 2700
-Wire Wire Line
-	4600 2800 4650 2800
-Wire Wire Line
-	4600 3100 4650 3100
-Wire Wire Line
-	4600 3300 4650 3300
-Wire Wire Line
-	2300 3350 2350 3350
-Wire Wire Line
-	2300 3250 2350 3250
-Wire Wire Line
-	2300 3150 2350 3150
-Wire Wire Line
-	2300 3050 2350 3050
-Wire Wire Line
-	2300 2950 2350 2950
-Wire Wire Line
-	2300 2850 2350 2850
-Wire Wire Line
-	2300 2750 2350 2750
-Wire Wire Line
-	2300 2650 2350 2650
-Wire Wire Line
-	2300 2450 2350 2450
-Wire Wire Line
-	1400 2650 1350 2650
-Wire Wire Line
-	1400 2750 1350 2750
-Wire Wire Line
-	1400 2850 1350 2850
-Wire Wire Line
-	1400 2950 1350 2950
-Wire Wire Line
-	1400 3050 1350 3050
-Wire Wire Line
-	1400 3150 1350 3150
-Wire Wire Line
-	1400 3250 1350 3250
-Wire Wire Line
-	1400 3350 1350 3350
-Wire Wire Line
-	1400 1850 1350 1850
-Wire Wire Line
-	1400 1750 1350 1750
-Wire Wire Line
-	1400 1650 1350 1650
-Wire Wire Line
-	1400 1350 1350 1350
-Wire Wire Line
-	1400 1250 1350 1250
-Wire Wire Line
-	1400 1150 1350 1150
-Wire Wire Line
-	2300 950  2350 950 
-Wire Wire Line
-	2300 1150 2350 1150
-Wire Wire Line
-	2300 1250 2350 1250
-Wire Wire Line
-	2300 1350 2350 1350
-Wire Wire Line
-	2300 1450 2350 1450
-Wire Wire Line
-	2300 1550 2350 1550
-Wire Wire Line
-	2300 1650 2350 1650
-Wire Wire Line
-	2300 1750 2350 1750
-Wire Wire Line
-	2300 1850 2350 1850
 $Comp
 L Connector:SD_Card J?
 U 1 1 5FA86896
@@ -836,4 +436,168 @@ Text GLabel 2150 4050 1    39   Input ~ 0
 SD2_ChipSelect
 Wire Wire Line
 	2150 4050 2150 4300
+$Comp
+L MRDT_Shields:Raspberry_Pi U?
+U 1 1 5FA4F080
+P 2800 3100
+F 0 "U?" H 3100 5297 60  0000 C CNN
+F 1 "Raspberry_Pi" H 3100 5191 60  0000 C CNN
+F 2 "" H 2800 4250 60  0001 C CNN
+F 3 "" H 2800 4250 60  0001 C CNN
+	1    2800 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 2250 2    39   Output ~ 0
+SD2_ChipSelect
+Wire Wire Line
+	3600 2250 3950 2250
+Text GLabel 2300 2250 0    39   Output ~ 0
+SD2_SerialClock
+Wire Wire Line
+	2600 2250 2300 2250
+Text GLabel 2300 2150 0    39   Output ~ 0
+SD2_SerialData_InTX
+Wire Wire Line
+	2600 2150 2300 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5FAD44E9
+P 4250 1450
+F 0 "#PWR?" H 4250 1200 50  0001 C CNN
+F 1 "GND" H 4255 1277 50  0000 C CNN
+F 2 "" H 4250 1450 50  0001 C CNN
+F 3 "" H 4250 1450 50  0001 C CNN
+	1    4250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1350 4250 1350
+Wire Wire Line
+	4250 1350 4250 1450
+$Comp
+L power:+5V #PWR?
+U 1 1 5FAD85D3
+P 3600 1000
+F 0 "#PWR?" H 3600 850 50  0001 C CNN
+F 1 "+5V" H 3615 1173 50  0000 C CNN
+F 2 "" H 3600 1000 50  0001 C CNN
+F 3 "" H 3600 1000 50  0001 C CNN
+	1    3600 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1150 3600 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5FAE152F
+P 4550 1850
+F 0 "#PWR?" H 4550 1600 50  0001 C CNN
+F 1 "GND" H 4555 1677 50  0000 C CNN
+F 2 "" H 4550 1850 50  0001 C CNN
+F 3 "" H 4550 1850 50  0001 C CNN
+	1    4550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1750 4550 1850
+Wire Wire Line
+	3600 1750 4550 1750
+Text GLabel 2300 2050 0    39   Input ~ 0
+Sd2_SerialData_OutRX
+Wire Wire Line
+	2600 2050 2300 2050
+Text GLabel 3950 2350 2    39   Output ~ 0
+SD1_ChipSelect
+Wire Wire Line
+	3600 2350 3950 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5FB196E4
+P 3850 2800
+F 0 "#PWR?" H 3850 2550 50  0001 C CNN
+F 1 "GND" H 3855 2627 50  0000 C CNN
+F 2 "" H 3850 2800 50  0001 C CNN
+F 3 "" H 3850 2800 50  0001 C CNN
+	1    3850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB1B70C
+P 4000 2650
+F 0 "#PWR?" H 4000 2400 50  0001 C CNN
+F 1 "GND" H 4005 2477 50  0000 C CNN
+F 2 "" H 4000 2650 50  0001 C CNN
+F 3 "" H 4000 2650 50  0001 C CNN
+	1    4000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2050 4800 2100
+Wire Wire Line
+	3600 2050 4800 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5FB1EAF1
+P 4800 2100
+F 0 "#PWR?" H 4800 1850 50  0001 C CNN
+F 1 "GND" H 4805 1927 50  0000 C CNN
+F 2 "" H 4800 2100 50  0001 C CNN
+F 3 "" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1550 2300 1550
+Wire Wire Line
+	2300 1550 2300 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5FB20B4F
+P 2300 1600
+F 0 "#PWR?" H 2300 1350 50  0001 C CNN
+F 1 "GND" H 2305 1427 50  0000 C CNN
+F 2 "" H 2300 1600 50  0001 C CNN
+F 3 "" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2350 2050 2350
+Wire Wire Line
+	2050 2350 2050 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5FB22CEC
+P 2050 2450
+F 0 "#PWR?" H 2050 2200 50  0001 C CNN
+F 1 "GND" H 2055 2277 50  0000 C CNN
+F 2 "" H 2050 2450 50  0001 C CNN
+F 3 "" H 2050 2450 50  0001 C CNN
+	1    2050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB24F44
+P 2500 3100
+F 0 "#PWR?" H 2500 2850 50  0001 C CNN
+F 1 "GND" H 2505 2927 50  0000 C CNN
+F 2 "" H 2500 3100 50  0001 C CNN
+F 3 "" H 2500 3100 50  0001 C CNN
+	1    2500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3050 2500 3050
+Wire Wire Line
+	2500 3050 2500 3100
+Wire Wire Line
+	3600 2750 3850 2750
+Wire Wire Line
+	3850 2750 3850 2800
+Wire Wire Line
+	3600 2550 4000 2550
+Wire Wire Line
+	4000 2550 4000 2650
 $EndSCHEMATC
