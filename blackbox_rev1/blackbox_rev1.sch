@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L blackbox_rev1-rescue:Teensy4.1_DEV-16771-MRDT_Shields U1
+L MRDT_Shields:Teensy4.1_DEV-16771 U1
 U 1 1 6160FCF1
 P 3300 3850
 F 0 "U1" H 3300 6017 50  0000 C CNN
