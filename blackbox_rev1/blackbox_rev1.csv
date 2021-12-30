@@ -1,0 +1,12 @@
+Reference, Value, Footprint,cost
+U1,Teensy4.1_DEV-16771,MODULE_DEV-16771,
+Conn1,AndersonPP,,
+U2,OKI,,
+C1,10 UF,,
+C2,10 UF,,
+BT1,Battery_Cell,,
+TP2,vBat,,
+TP1,Real Time Ground,,
+J1,RJ45_LED_Shielded,,
+Conn2,Molex_uF_D_06,MRDT_Connectors:MOLEX_uF_D_06_Horizontal,
+C3,C_Small,,
