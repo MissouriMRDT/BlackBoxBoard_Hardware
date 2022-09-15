@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name "DS1374")(type "KiCad")(uri "${KIPRJMOD}/DS1374.kicad_sym")(options "")(descr ""))
-  (lib (name "BlackBox")(type "KiCad")(uri "${KIPRJMOD}/BlackBox.kicad_sym")(options "")(descr ""))
 )
